@@ -1,0 +1,1449 @@
+<html>
+<head>
+
+<title>Raina Gond | Portfolio</title>
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/owl.carousel.min.css" rel="stylesheet">
+<link href="css/aos.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="icofont/icofont.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    color:#222;
+    background:#f7f8fc;
+}
+
+a{
+    text-decoration:none;
+}
+.container-fluid{
+    padding-left:0;
+    padding-right:0;
+}
+
+.row{
+    margin-left:0;
+    margin-right:0;
+}
+
+
+/*  NAVBAR  */
+
+.navbar{
+    margin-right:0px;
+	padding-right:0px;
+	padding-left:0px;
+    margin-left:0px;
+    border:0;
+    border-radius:0;
+    background:#101828;
+    min-height:75px;
+
+}
+
+.navbar-brand{
+    color:#fff !important;
+    font-size:28px;
+    font-weight:bold;
+    padding:25px 15px;
+}
+
+.navbar-brand span{
+    color:#6c63ff;
+}
+
+.navbar-nav > li > a{
+    color:#fff !important;
+    padding:28px 17px;
+    font-size:15px;
+    transition:0.3s;
+}
+
+.navbar-nav > li > a:hover{
+    color:#8f88ff !important;
+    background:transparent !important;
+}
+
+.navbar-nav .contact-btn{
+    background:#6c63ff;
+    border-radius:25px;
+    padding:11px 23px !important;
+    margin-top:17px;
+    margin-left:10px;
+}
+
+.navbar-nav .contact-btn:hover{
+    background:#5148e5 !important;
+    color:#fff !important;
+}
+
+
+/*  HERO  */
+
+.hero{
+    min-height:680px;
+    padding:90px 0;
+    display:flex;
+    align-items:center;
+    background:
+    linear-gradient(120deg,#eef0ff,#ffffff);
+}
+
+.hero-small{
+    color:#6c63ff;
+    font-size:19px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.hero h1{
+    font-size:62px;
+    font-weight:bold;
+    color:#101828;
+    margin:0;
+}
+
+.hero h1 span{
+    color:#6c63ff;
+}
+
+.hero h2{
+    font-size:29px;
+    color:#344054;
+    margin:18px 0;
+    font-weight:600;
+}
+
+.hero-text{
+    font-size:17px;
+    line-height:1.8;
+    color:#667085;
+    max-width:650px;
+}
+
+.hero-buttons{
+    margin-top:30px;
+}
+
+.btn-main{
+    display:inline-block;
+    padding:14px 28px;
+    background:#6c63ff;
+    color:#fff;
+    border-radius:30px;
+    margin-right:10px;
+    transition:0.3s;
+}
+
+.btn-main:hover{
+    background:#5148e5;
+    color:#fff;
+    transform:translateY(-3px);
+}
+
+.btn-outline{
+    display:inline-block;
+    padding:12px 27px;
+    border:2px solid #6c63ff;
+    color:#6c63ff;
+    border-radius:30px;
+    transition:0.3s;
+}
+
+.btn-outline:hover{
+    background:#6c63ff;
+    color:#fff;
+}
+
+.hero-social{
+    margin-top:30px;
+}
+
+.hero-social a{
+    display:inline-flex;
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    align-items:center;
+    justify-content:center;
+    background:#fff;
+    color:#6c63ff;
+    margin-right:8px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.hero-social a:hover{
+    background:#6c63ff;
+    color:#fff;
+    transform:translateY(-4px);
+}
+
+
+/*  PROFILE  */
+
+.profile-area{
+    text-align:center;
+}
+
+.profile-circle{
+    width:360px;
+    height:360px;
+    border-radius:50%;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(135deg,#6c63ff,#aaa5ff);
+    box-shadow:0 25px 60px rgba(108,99,255,0.30);
+    position:relative;
+}
+
+.profile-circle:before{
+    content:"";
+    position:absolute;
+    width:310px;
+    height:310px;
+    border:2px solid rgba(255,255,255,0.5);
+    border-radius:50%;
+}
+.profile-circle img{
+border-radius:50%;
+    width:360px;
+    height:360px;
+}
+.profile-circle i{
+    color:#fff;
+    font-size:150px;
+}
+
+
+/*  INTRO INFO  */
+
+.intro-info{
+    margin-top:-45px;
+    position:relative;
+    padding-bottom:80px;
+}
+
+.info-box{
+    background:#fff;
+    padding:28px 15px;
+    border-radius:12px;
+    text-align:center;
+    height:200;
+    box-shadow:0 8px 30px rgba(0,0,0,0.07);
+    transition:0.3s;
+}
+
+.info-box:hover{
+    transform:translateY(-8px);
+}
+
+.info-box i{
+    font-size:30px;
+    color:#6c63ff;
+    margin-bottom:12px;
+}
+
+.info-box h4{
+    font-weight:bold;
+    margin:5px 0 8px;
+}
+
+.info-box p{
+    margin:0;
+    color:#777;
+}
+
+
+/* ABOUT  */
+
+.about{
+    padding:90px 0;
+    background:#fff;
+}
+
+.section-title{
+    margin-bottom:45px;
+}
+
+.section-title h2{
+    font-size:40px;
+    font-weight:bold;
+    color:#101828;
+}
+
+.section-title h2 span{
+    color:#6c63ff;
+}
+
+.section-title p{
+    color:#777;
+    line-height:1.7;
+}
+
+.about-text{
+    color:#667085;
+    font-size:16px;
+    line-height:1.9;
+}
+
+.about-details{
+    margin-top:25px;
+}
+
+.about-details p{
+    margin-bottom:12px;
+    color:#667085;
+}
+
+.about-details strong{
+    color:#101828;
+}
+
+
+/*  SKILLS  */
+
+.skills{
+    padding:90px 0;
+    background:#f7f8fc;
+}
+
+.skill-box{
+    background:#fff;
+    padding:30px 20px;
+    border-radius:12px;
+    text-align:center;
+    margin-bottom:25px;
+    min-height:160px;
+    box-shadow:0 7px 25px rgba(0,0,0,0.06);
+    transition:0.3s;
+}
+
+.skill-box:hover{
+    transform:translateY(-7px);
+}
+
+.skill-box i{
+    font-size:42px;
+    color:#6c63ff;
+    margin-bottom:15px;
+}
+
+.skill-box h4{
+    font-weight:bold;
+    margin-bottom:8px;
+}
+
+.skill-box p{
+    color:#777;
+    margin:0;
+}
+
+
+/*  TOOLS  */
+
+.tools{
+    padding:70px 0;
+    background:#101828;
+}
+
+.tools .section-title h2{
+    color:#fff;
+	text-align:center;
+	
+}
+
+.tools .section-title p{
+    color:#cbd5e1;
+	text-align:center;
+	font-size:25px;
+}
+
+.tool-item{
+    background:#1d2939;
+    border:1px solid #344054;
+    padding:22px 10px;
+    text-align:center;
+    border-radius:10px;
+    color:#fff;
+    margin-bottom:20px;
+    transition:0.3s;
+}
+
+.tool-item:hover{
+    border-color:#6c63ff;
+    transform:translateY(-5px);
+}
+
+.tool-item i{
+    font-size:30px;
+    color:#8f88ff;
+    margin-bottom:10px;
+}
+
+.tool-item h5{
+    margin:5px 0 0;
+    font-weight:bold;
+}
+
+
+/*  PROJECTS */
+
+.projects{
+    padding:90px 0;
+    background:#fff;
+}
+
+.project-box{
+    background:#fff;
+    border-radius:14px;
+    overflow:hidden;
+    box-shadow:0 8px 30px rgba(0,0,0,0.08);
+    height:80%;
+    transition:0.3s;
+}
+.@media(max-width:780px){
+
+.project-box{
+height:50%;
+}
+}
+.project-box:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 40px rgba(108,99,255,0.16);
+}
+
+.project-top{
+    height:190px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#eef0ff;
+}
+
+.project-top i{
+    font-size:75px;
+    color:#6c63ff;
+}
+
+.project-content{
+    padding:27px;
+}
+
+.project-content h3{
+    font-size:21px;
+    font-weight:bold;
+    color:#101828;
+}
+
+.project-content p{
+    color:#667085;
+    line-height:1.7;
+}
+
+.project-tags{
+    margin:15px 0;
+}
+
+.project-tags span{
+    display:inline-block;
+    padding:5px 10px;
+    background:#eef0ff;
+    color:#6c63ff;
+    border-radius:15px;
+    font-size:12px;
+    margin:3px;
+}
+
+.github-btn{
+    display:inline-block;
+    padding:10px 18px;
+    border-radius:25px;
+    background:#101828;
+    color:#fff;
+    margin-top:8px;
+}
+
+.github-btn:hover{
+    background:#6c63ff;
+    color:#fff;
+}
+
+/* college detail*/
+.College{
+min-height:500px;
+background:#f7f8fc;
+.@media(max-width:780px){
+
+.College{
+min-height:100%;
+}
+}
+.education{
+text-align:center;
+font-size:36px;
+color:#101828;
+}
+}
+.box1{
+min-height:250px;
+background:white;
+border-radius:10px;
+}
+.icon1{
+
+font-size:40px;
+}
+
+.box1:hover{
+ box-shadow:0 25px 60px rgba(108,99,255,0.30);
+
+}
+.box2{
+min-height:250px;
+background:white;
+border-radius:10px;
+
+}
+.box2:hover{
+ box-shadow:0 25px 60px rgba(108,99,255,0.30);
+}
+.box3{
+min-height:250px;
+background:white;
+border-radius:10px;
+
+}
+.box3:hover{
+ box-shadow:0 25px 60px rgba(108,99,255,0.30);
+}
+.box4{
+min-height:250px;
+background:white;
+border-radius:10px;
+
+}
+.box4:hover{
+ box-shadow:0 25px 60px rgba(108,99,255,0.30);
+}
+
+/*  HIGHLIGHTS */
+
+.highlights{
+    padding:75px 0;
+    background:#f7f8fc;
+}
+
+.counter-box{
+    text-align:center;
+    padding:20px;
+}
+
+.counter-box i{
+    font-size:35px;
+    color:#6c63ff;
+    margin-bottom:12px;
+}
+
+.counter-box h2{
+    font-size:36px;
+    font-weight:bold;
+    color:#101828;
+    margin:5px;
+}
+
+.counter-box p{
+    color:#777;
+}
+
+
+/*cta*/
+
+.cta{
+    padding:80px 0;
+    background:#101828;
+    text-align:center;
+    color:#fff;
+}
+
+.cta h2{
+    font-size:38px;
+    font-weight:bold;
+}
+
+.cta p{
+    color:#d0d5dd;
+    margin:15px auto 30px;
+    max-width:650px;
+    line-height:1.7;
+}
+.contact-btn{
+    background:#6c63ff;
+    border-radius:25px;
+    padding:11px 23px !important;
+    margin-top:17px;
+    margin-left:10px;
+}
+
+.contact-btn:hover{
+    background:#5148e5 !important;
+    color:#fff !important;
+}
+
+/*  FOOTER */
+
+footer{
+    padding:28px 0;
+    text-align:center;
+    background:#080d18;
+    color:#98a2b3;
+}
+
+footer p{
+    margin:0;
+}
+
+footer span{
+    color:#8f88ff;
+}
+
+
+/*  RESPONSIVE */
+
+@media(max-width:767px){
+
+    .navbar-brand{
+        padding:20px 15px;
+    }
+
+    .navbar-nav > li > a{
+        padding:12px 15px;
+    }
+
+    .navbar-nav .contact-btn{
+        margin:5px 15px 15px;
+    }
+
+    .hero{
+        text-align:center;
+        padding:65px 0;
+    }
+
+    .hero h1{
+        font-size:43px;
+    }
+
+    .hero h2{
+        font-size:22px;
+    }
+
+    .hero-text{
+        margin:auto;
+    }
+
+    .profile-area{
+        margin-top:55px;
+    }
+
+    .profile-circle{
+        width:260px;
+        height:260px;
+    }
+
+    .profile-circle:before{
+        width:225px;
+        height:225px;
+    }
+
+    .profile-circle i{
+        font-size:105px;
+    }
+
+    .section-title h2{
+        font-size:32px;
+    }
+
+}
+</style>
+</head>
+<body>
+  <!-- NAVBAR  -->
+<nav  id="navbar-example2" class="navbar navbar-default bg-1 px-3 mb-3 menu">
+<div class="container">
+<div class="navbar-header"><button type="button"class="navbar-toggle collapsed"data-toggle="collapse"
+data-target="#portfolioMenu">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="index.html">
+Raina<span>Gond</span>
+</a>
+</div>
+<div class="collapse navbar-collapse" id="portfolioMenu">
+<ul class="nav navbar-nav navbar-right nav nav-pills">
+<li class="nav-item"><a href="#scrollspyHeading1">Home</a></li>
+<li class="nav-item"><a href="#scrollspyHeading2">About</a></li>
+<li class="nav-item"><a href="#scrollspyHeading3">Skills</a></li>
+<li class="nav-item"><a href="#scrollspyHeading4">Projects</a></li>
+<button type="submit"class="Contact-btn nav-item"data-target="#mymodal"data-toggle="modal">Contact Me</button>
+<!--  BOOKING MODAL-->
+<div class="modal fade" id="mymodal" role="dialog">
+<div class="modal-dialog modal-md">
+<div class="modal-content">
+<div class="modal-body"style="background:#6c63ff;">
+<button type="button"class="close"data-dismiss="modal"style="color:white;">&times;</button>
+<h4 class="modal-title"style="color:white;text-align:center;">Get In Touch</h4>
+</div>
+<div class="modal-body"style="background:#eef0ff;">
+<form>
+<div class="form-group">
+<label style="color:#172554;">Your Name</label>
+<input type="text"class="form-control"placeholder="Enter your name">
+</div>
+<div class="form-group">
+<label style="color:#172554;">Email</label>
+<input type="email"class="form-control"placeholder="Enter your email">
+</div>
+<div class="form-group">
+<label style="color:#172554;">Mobile Number</label>
+<input type="Mobile"class="form-control">
+</div>
+<div class="form-group">
+<label style="color:#172554;">Message</label>
+<textarea type="message"class="form-control"></textarea>
+</div>
+
+<button type="submit"class="btn btn-primary"style="background:#6c63ff;color:white;border-color:#d97757;">submit
+</button>
+
+<div class="modal-footer">
+<button type="button"class="btn btn-danger"data-dismiss="modal"style="background:#6c63ff;border-color:#2563a6;">
+Close
+</button>
+
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+</ul>
+</div>
+</div>
+</nav>
+
+
+
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-1 p-3 rounded-2" tabindex="0">
+
+
+<!--  HERO  -->
+<div class="container-fluid " id="scrollspyHeading1">
+<section class="hero">
+<div class="container">
+<div class="row">
+<div class="col-md-7">
+<div data-aos="fade-right">
+<div class="hero-small">
+HELLO, WELCOME TO MY PORTFOLIO
+</div>
+
+<h1>I'm <span>Raina Gond</span></h1>
+<h2>IT Professional & Web Developer</h2>
+<p class="hero-text">
+I am an Information Technology professional from
+Mau, Uttar Pradesh, with a strong interest in
+Web Development and Software Development.
+
+I have recently completed my Diploma in
+Information Technology from Government Girls
+Polytechnic Lucknow and currently doing an
+apprenticeship in MERN Stack at Mecatredz
+Software and Innovation, Lucknow.
+</p>
+
+
+<div class="hero-buttons">
+<a href="projects.html" class="btn-main">
+<i class="icofont-code"></i>
+&nbsp; Explore My Projects
+</a>
+
+<a href="about.html" class="btn-outline">
+<i class="icofont-user"></i>&nbsp; About Me
+</a>
+</div>
+
+<div class="hero-social">
+<a href="https://github.com/RainaGond"target="_blank">
+<i class="icofont-github"></i>
+</a>
+
+<a href="#">
+<i class="icofont-linkedin"></i>
+</a>
+
+<a href="contact.html">
+<i class="icofont-envelope"></i>
+</a>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-5">
+<div class="profile-area"data-aos="fade-left">
+<div class="profile-circle">
+<img src="raina.jpeg" height="200" width="200">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+
+
+
+<!--  INFORMATION  -->
+
+<section class="intro-info">
+<div class="container">
+<div class="row">
+<div class="col-md-3 col-sm-6"data-aos="fade-up">
+
+<div class="info-box">
+<i class="icofont icofont-graduate"></i>
+<h4>Diploma in IT</h4>
+<p>Government Girls Polytechnic Lucknow</p>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-6"data-aos="fade-up"data-aos-delay="100">
+<div class="info-box">
+<i class="icofont-laptop"></i>
+<h4>MERN Stack</h4>
+<p>Current Apprenticeship</p>
+</div>
+</div>
+
+
+<div class="col-md-3 col-sm-6"data-aos="fade-up"data-aos-delay="200">
+<div class="info-box">
+<i class="icofont-certificate"></i>
+<h4>Summer Training</h4>
+<p>HindTech Learning Point</p>
+</div>
+</div>
+
+
+<div class="col-md-3 col-sm-6"data-aos="fade-up"data-aos-delay="300">
+<div class="info-box">
+<i class="icofont-google-map"></i>
+<h4>Based In</h4>
+<p>Lucknow, Uttar Pradesh</p>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+<!--  ABOUT -->
+
+<section class="about" id="scrollspyHeading2">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-md-7"data-aos="fade-right" style="border-right:5px solid #eef0ff;">
+<div class="section-title">
+<h2>About <span>Me</span></h2>
+</div>
+<p class="about-text">
+I am Raina Gond, an IT professional from Mau,
+Uttar Pradesh. I completed my High School in
+2021 from Randhir Singh Yadav Secondary School
+with 81.2%.
+
+I completed my Intermediate from K.N.S Inter
+College, Mathsa with 86.4%.
+</p>
+<p class="about-text">
+
+I recently completed my Diploma in Information
+Technology from Government Girls Polytechnic
+Lucknow with more than 75%.
+
+I also completed my summer training from
+HindTech Learning Point, Lucknow.
+</p>
+
+<p class="about-text">
+Currently, I am doing an apprenticeship at
+Mecatredz Software and Innovation, Lucknow,
+where I am working and learning MERN Stack
+development.
+</p>
+
+<a href="about.html" class="btn-main">Read More About Me</a>
+</div>
+
+
+<div class="col-md-5"data-aos="fade-left">
+<div class="about-details">
+<div style="min-height:100px;"></div>
+<p><strong>High School:</strong>81.2% — 2021</p>
+<p><strong>Intermediate:</strong>86.4%</p>
+<p><strong>Diploma:</strong>Information Technology</p>
+<p><strong>Training:</strong>HindTech Learning Point</p>
+<p><strong>Apprenticeship:</strong>Mecatredz Software & Innovation</p>
+<p><strong>Specialization:</strong>MERN Stack Development</p>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+
+
+<!--  SKILLS  -->
+
+<section class="skills" id="scrollspyHeading3">
+<div class="container">
+<div class="section-title text-center"data-aos="fade-up">
+<h2>Technical <span>Skills</span></h2>
+<p>Technologies and programming skills I work with</p>
+</div>
+<div class="row">
+<div class="col-md-3 col-sm-6"data-aos="fade-up">
+<div class="skill-box">
+<i class="fa fa-html5"></i>
+<h4>HTML</h4>
+<p>Web Structure</p>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-6"data-aos="fade-up"data-aos-delay="100">
+<div class="skill-box">
+<i class="fa fa-css3"></i>
+<h4>CSS</h4>
+<p>Web Designing</p>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-6"data-aos="fade-up"data-aos-delay="200">
+<div class="skill-box">
+<i class="icofont-code"></i>
+<h4>Bootstrap</h4>
+<p>Responsive Design</p>
+</div>
+</div>
+
+
+<div class="col-md-3 col-sm-6"data-aos="fade-up"data-aos-delay="300">
+<div class="skill-box">
+<i class="icofont-terminal"></i>
+<h4>C Language</h4>
+<p>Programming Basics</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<!--  TOOLS ---->
+
+<section class="tools">
+<div class="container">
+<div class="section-title text-center"data-aos="fade-up">
+<h2>Tools & <span>Technologies</span></h2>
+<p>Tools I use for development and productivity</p>
+</div>
+<div class="row">
+<div class="col-md-2 col-sm-4 col-xs-6">
+<div class="tool-item"data-aos="fade-up">
+<i class="icofont-code"></i>
+<h5>VS Code</h5>
+</div>
+</div>
+
+
+<div class="col-md-2 col-sm-4 col-xs-6">
+<div class="tool-item"data-aos="fade-up">
+<i class="icofont-github"></i>
+<h5>Git</h5>
+</div>
+</div>
+
+
+<div class="col-md-2 col-sm-4 col-xs-6">
+<div class="tool-item"data-aos="fade-up">
+<i class="icofont-database"></i>
+<h5>SQL</h5>
+</div>
+</div>
+
+<div class="col-md-2 col-sm-4 col-xs-6">
+<div class="tool-item"data-aos="fade-up">
+<i class="icofont-file-text"></i>
+<h5>MS Word</h5>
+</div>
+</div>
+
+
+<div class="col-md-2 col-sm-4 col-xs-6">
+<div class="tool-item"data-aos="fade-up">
+<i class="icofont-table"></i>
+<h5>MS Excel</h5>
+</div>
+</div>
+
+<div class="col-md-2 col-sm-4 col-xs-6">
+<div class="tool-item"data-aos="fade-up">
+<i class="fa fa-file-text-o"></i>
+<h5>Notepad</h5>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+
+
+<!-- PROJECTS -->
+
+<section class="projects" id="scrollspyHeading4">
+<div class="container">
+<div class="section-title text-center"data-aos="fade-up">
+<h2>Featured <span>Projects</span></h2>
+<p>A selection of projects from my development journey</p>
+</div>
+
+<div class="row">
+
+<!-- PROJECT 1 -->
+
+<div class="col-md-4"data-aos="fade-up">
+<div class="project-box">
+<div class="project-top">
+<i class="icofont-university"></i>
+</div>
+
+<div class="project-content">
+<h3>Online College Management</h3>
+<p>
+A complete college management website
+with pages for college information,
+courses, faculty, library, registration
+and login.
+</p>
+<div class="project-tags">
+<span>HTML</span>
+<span>CSS</span>
+<span>Bootstrap</span>
+</div>
+<a href="https://github.com/RainaGond/Online-College-Management.git"target="_blank"class="github-btn">
+<i class="fa fa-github"></i>
+&nbsp; View on GitHub
+</a>
+</div>
+</div>
+</div>
+
+
+
+<!-- PROJECT 2 -->
+
+<div class="col-md-4"data-aos="fade-up"data-aos-delay="100">
+<div class="project-box">
+<div class="project-top">
+<i class="fa fa-calendar-check-o"></i>
+</div>
+<div class="project-content">
+<h3>Online Event Booking</h3>
+<p>
+An event management and booking website
+designed to showcase events and provide
+users with an easy booking experience.
+</p>
+
+<div class="project-tags">
+<span>HTML</span>
+<span>CSS</span>
+<span>Bootstrap</span>
+</div>
+<a href="projects.html"
+class="github-btn">
+View Project
+&nbsp; →
+</a>
+</div>
+</div>
+</div>
+
+<!-- PROJECT 3 -->
+
+<div class="col-md-4"data-aos-delay="200" id="">
+<div class="project-box">
+<div class="project-top">
+<i class="icofont-home"></i></div>
+<div class="project-content">
+<h3>Real Estate Website</h3>
+<p>
+A professional real estate website
+for displaying properties and helping
+users explore available property options.
+</p>
+<div class="project-tags">
+<span>HTML</span>
+<span>CSS</span>
+<span>Bootstrap</span>
+</div>
+<a href="projects.html"class="github-btn">
+View Project
+&nbsp; →
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<!-----college school detail -------->
+
+<section class="college">
+<div class="container">
+<div class="col-sm-12">
+<h1 class="education"><b>Education</b></h1>
+</div>
+<div class="row">
+<div style="min-height:150px;"></div>
+<div class="col-sm-3">
+<div class="row">
+<div class="col-sm-11 box1" data-aos="slide-up">
+<div style="min-height:30px;"></div>
+<div class="row icon1">
+<div class="col-sm-4 col-xs-5"></div>
+<div class="col-sm-3 col-xs-2">
+<i style="text-align:center;" class="icofont-laptop"></i></div>
+<div class="col-sm-5 col-xs-5"></div>
+</div>
+<div class="row">
+<h4 style="font-size:20px;text-align:center;">Apprenticeship</h4>
+<p style="font-size:18px;color:6c63ff;text-align:center;">Mern Stack</p>
+<p style="font-size:14px;text-align:center;color:gray">Mecatredz Software and Innovation</p>
+<p style="font-size:18px;color:6c63ff;text-align:center;">Present</p>
+</div>
+</div>
+<div class="col-sm-1"></div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="row">
+<div class="col-sm-11 box2" data-aos="slide-up">
+<div style="min-height:30px;"></div>
+<div class="row icon1">
+<div class="col-sm-4 col-xs-5"></div>
+<div class="col-sm-3 col-xs-2">
+<i style="text-align:center;" class="fa fa-graduation-cap"></i></div>
+<div class="col-sm-5 col-xs-5"></div>
+</div>
+<div class="row">
+<h4 style="font-size:20px;text-align:center;">Diploma</h4>
+<p style="font-size:18px;color:6c63ff;text-align:center;">Information Technology</p>
+<p style="font-size:14px;text-align:center;color:gray">Government Girls Polytechnic Lucknow</p>
+<p style="font-size:18px;color:6c63ff;text-align:center;">2023-26</p>
+</div>
+</div>
+<div class="col-sm-1"></div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="row">
+<div class="col-sm-11 box3" data-aos="slide-up">
+<div style="min-height:30px;"></div>
+<div class="row icon1">
+<div class="col-sm-4 col-xs-5"></div>
+<div class="col-sm-3 col-xs-2">
+<i style="text-align:center;" class="icofont-university"></i></div>
+<div class="col-sm-5 col-xs-5"></div>
+</div>
+<div class="row">
+<h4 style="font-size:20px;text-align:center;">Intermediate</h4>
+<p style="font-size:18px;color:6c63ff;text-align:center;">86.4 %</p>
+<p style="font-size:14px;text-align:center;color:gray">K.N.S Enter College Mau</p>
+<p style="font-size:18px;color:6c63ff;text-align:center;">2021-23</p>
+</div>
+</div>
+<div class="col-sm-1"></div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="row">
+<div class="col-sm-11 box4" data-aos="slide-up">
+<div style="min-height:30px;"></div>
+<div class="row icon1">
+<div class="col-sm-4 col-xs-5"></div>
+<div class="col-sm-3 col-xs-2">
+<i style="text-align:center;" class="fa fa-graduation-cap"></i></div>
+<div class="col-sm-5 col-xs-5"></div>
+</div>
+<div class="row">
+<h4 style="font-size:20px;text-align:center;">High School</h4>
+<p style="font-size:18px;color:6c63ff;text-align:center;">81.2 %</p>
+<p style="font-size:14px;text-align:center;color:gray">R.D.Y SecondarySchool</p>
+<p style="font-size:18px;color:6c63ff;text-align:center;">2021</p>
+</div>
+</div>
+<div class="col-sm-1"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<!-- HIGHLIGHTS -->
+
+<section class="highlights">
+
+<div class="container">
+
+<div class="row">
+
+
+<div class="col-md-3 col-sm-6">
+
+<div class="counter-box">
+
+<i class="icofont-code"></i>
+
+<h2 class="counter">3</h2>
+
+<p>Featured Projects</p>
+
+</div>
+
+</div>
+
+
+<div class="col-md-3 col-sm-6">
+
+<div class="counter-box">
+
+<i class="fa fa-graduation-cap"></i>
+
+<h2 class="counter">75</h2>
+
+<p>Diploma Percentage+</p>
+
+</div>
+
+</div>
+
+
+<div class="col-md-3 col-sm-6">
+
+<div class="counter-box">
+
+<i class="icofont-laptop"></i>
+
+<h2 class="counter">1</h2>
+
+<p>Current Apprenticeship</p>
+
+</div>
+
+</div>
+
+
+<div class="col-md-3 col-sm-6">
+
+<div class="counter-box">
+
+<i class="fa fa-wrench"></i>
+
+<h2 class="counter">6</h2>
+
+<p>Development Tools</p>
+
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ================= CTA ================= -->
+
+<section class="cta">
+
+<div class="container"
+data-aos="zoom-in">
+
+<h2>
+Let's Build Something Great Together
+</h2>
+
+<p>
+
+I am always interested in learning new technologies,
+working on innovative projects and growing as a
+software developer.
+
+</p>
+
+<button type="submit"
+class="Contact-btn"
+data-target="#mymodal"
+data-toggle="modal">
+Contact Me
+</button>
+
+<!--  BOOKING MODAL-->
+
+<div class="modal fade" id="mymodal" role="dialog">
+
+<div class="modal-dialog modal-md">
+
+<div class="modal-content">
+
+<div class="modal-body"
+style="background:#6c63ff;">
+
+<button type="button"
+class="close"
+data-dismiss="modal"
+style="color:white;">
+&times;
+</button>
+
+<h4 class="modal-title"
+style="color:white;text-align:center;">
+Get In Touch
+</h4>
+
+</div>
+
+<div class="modal-body"
+style="background:#eef0ff;">
+
+<form>
+
+<div class="form-group">
+<label style="color:#172554;">Your Name</label>
+<input type="text"
+class="form-control"
+placeholder="Enter your name">
+</div>
+
+<div class="form-group">
+<label style="color:#172554;">Email</label>
+<input type="email"
+class="form-control"
+placeholder="Enter your email">
+</div>
+
+<div class="form-group">
+<label style="color:#172554;">Mobile Number</label>
+<input type="Mobile"
+class="form-control">
+</div>
+
+<div class="form-group">
+<label style="color:#172554;">Message</label>
+<textarea type="message"class="form-control"></textarea>
+</div>
+<button type="submit"
+class="btn btn-primary"
+style="background:#6c63ff;color:white;border-color:#d97757;">
+submit
+</button>
+
+<div class="modal-footer">
+
+<button type="button"
+class="btn btn-danger"
+data-dismiss="modal"
+style="background:#6c63ff;border-color:#2563a6;">
+Close
+</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+
+  <!-----end div-->
+</div>
+</div>
+
+<!--  FOOTER  -->
+
+<footer>
+<div class="container">
+<p>© 2026 <span>Raina Gond</span>.All Rights Reserved.</p>
+</div>
+</footer>
+
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/counterup.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+
+AOS.init({
+    duration:1000,
+    once:true
+});
+
+$('.counter').counterUp({
+    delay:10,
+    time:1000
+});
+
+</script>
+
+</body>
+</html>
+  
+
+
+
